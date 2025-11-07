@@ -24,3 +24,5 @@ chain = prompt | model | parser
 result = chain.invoke(get_topic())
 
 print(result)
+
+chain.get_graph().print_ascii()
